@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "covariantExample", "covariantExample\covariantExample.csproj", "{BD90073D-F15C-42B3-B178-504F6F2F14DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovariantExample", "CovariantExample\CovariantExample.csproj", "{BD90073D-F15C-42B3-B178-504F6F2F14DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovariantExample.Tests", "CovariantExample.Tests\CovariantExample.Tests.csproj", "{35C451C6-4C0C-4B7E-BE4D-C3DF5F4C4304}"
 EndProject
