@@ -11,7 +11,10 @@ namespace CovariantExample.Tests
         [Test]
         public void Module1()
         {
-            
+            //ƒемонстраци€ ковариантности массивов и проверок во врем€ выполнени€
+            string[] strings = new string[5];
+            object[] objects = strings; //<- ѕрименение ковариантного преобразовани€
+            objects[0] = 1;             //<- ѕопытка сохранени€ числового значени€
         }
     }
 }
