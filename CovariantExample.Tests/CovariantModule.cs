@@ -14,7 +14,9 @@ namespace CovariantExample.Tests
             //ƒемонстраци€ ковариантности массивов и проверок во врем€ выполнени€
             string[] strings = new string[5];
             object[] objects = strings; //<- ѕрименение ковариантного преобразовани€
-            objects[0] = 1;             //<- ѕопытка сохранени€ числового значени€
+            objects[0] = 1;             //<- ѕопытка сохранени€ числового значени€ закончитс€ ошибкой
+                                        //System.ArrayTypeMismatchException :
+                                        //Attempted to access an element as a type incompatible with the array.
         }
     }
 }
